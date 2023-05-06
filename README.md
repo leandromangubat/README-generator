@@ -34,7 +34,7 @@ To use the application, follow these steps:
 
 ## Contributing
 
-This project is open to contributions. If you would like to contribute, please submit a pull request or contact the author at the email address below.
+N/A
 
 ## License
 

@@ -79,16 +79,15 @@ const genQuestions = inquirer.prompt(questions);
 const currentDir = process.cwd();
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-
+function createFile(fileName, data) {
   return fs.writeFileSync(path.join(currentDir, fileName), data); 
 }
 
 // TODO: Create a function to initialize app
 function init(){
   genQuestions.then((answers) => {
-writeToFile("./dist/README.md", generateMarkdown({ ...answers }));  
-})
+  createFile("./dist/README.md", generateMarkdown({...answers}));      
+  })
 }
 // Function call to initialize app
 init();
