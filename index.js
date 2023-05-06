@@ -64,6 +64,11 @@ const questions = [
   },
   {
     type: "input",
+    name: "usage",
+    message: "Please provide instructions on how to use your application",
+  },
+  {
+    type: "input",
     name: "filename",
     message: "Please enter the name of the README file",
     
@@ -75,6 +80,7 @@ const currentDir = process.cwd();
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+
   return fs.writeFileSync(path.join(currentDir, fileName), data); 
 }
 
