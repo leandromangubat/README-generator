@@ -83,10 +83,12 @@ function createFile(fileName, data) {
   return fs.writeFileSync(path.join(currentDir, fileName), data); 
 }
 
+
 // TODO: Create a function to initialize app
 function init(){
   genQuestions.then((answers) => {
-  createFile("./dist/README.md", generateMarkdown({...answers}));      
+  const readmeName = answers.filename;
+  createFile(`./dist/${readmeName}.md`, generateMarkdown({...answers}));      
   })
 }
 // Function call to initialize app
