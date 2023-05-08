@@ -19,7 +19,7 @@ ${data.link}
 ## Table of Contents
 * [Features](#features)
 * [Installation](#installation)
-* [Usage](#usage)
+* [Usage](#Usage)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Questions](#questions)
@@ -27,7 +27,7 @@ ${data.link}
 ${data.features}
 ## Installation
 ${data.require}
-## How to Use This Application
+## Usage
 ${data.usage}
 ## Contributors
 ${data.contributors}
@@ -36,7 +36,7 @@ ${data.test}
 ## Questions
 If you have any questions, please contact me here: 
 * Email: ${data.email}
-* Github: github.com/${data.creator}/
+* Github: github.com/${data.creator}
 `;
 }
 
