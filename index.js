@@ -88,7 +88,7 @@ function createFile(fileName, data) {
 function init(){
   genQuestions.then((answers) => {
   const readmeName = answers.filename;
-  createFile(`./dist/${readmeName}.md`, generateMarkdown({...answers}));      
+  createFile('./dist/${readmeName}.md', generateMarkdown({...answers}));      
   })
 }
 // Function call to initialize app
