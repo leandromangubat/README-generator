@@ -1,28 +1,28 @@
-# README Generator
+# README-Generator
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Description
-This is a tool in the (CLI) used to generate a README file
+This project is used to generate a README file using the CLI
 ## Deployed Application
-www.sample.com
+github.com/leandromangubat/README-generator
 ## Application Screenshot
 ![alt-text](./sample/image)
 ## Table of Contents
 * [Features](#features)
 * [Installation](#installation)
-* [How to Use This Application](#HowtoUseThisApplication)
+* [Usage](#Usage)
 * [Contributors](#contributors)
 * [Testing](#testing)
 * [Questions](#questions)
 ## Features
-Used to create a README file using the CLI
+Used to generate a README file
 ## Installation
 Inquirer 8.2.4
-## How to Use This Application
-Sample
+## Usage
+Sample instructions...
 ## Contributors
 N/A
 ## Testing
-N/A
+Sample
 ## Questions
 If you have any questions, please contact me here: 
 * Email: leandromangubat@hotmail.com
